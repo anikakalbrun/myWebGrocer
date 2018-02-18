@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.m-t-10 {
+    margin-top: 10px
+}
+
+.m-r-15 {
+    margin-right: 15px;
+}

@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Main renders the Page2 component when pageNumber=2 1`] = `
+<div
+  style={
+    Object {
+      "height": "auto",
+      "minHeight": 1109,
+      "overflow": "auto",
+    }
+  }
+>
+  <ReduxForm />
+</div>
+`;
+
+exports[`Main setComponentHeight works fine and is being called by windows resize 1`] = `
+Object {
+  "height": "auto",
+  "minHeight": 1109,
+  "overflow": "auto",
+}
+`;

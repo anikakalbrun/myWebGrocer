@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FieldWrapper does not render error when field was not touched 1`] = `
+<div
+  className="form-group"
+>
+  <label
+    className="col-xs-12"
+  >
+    First Name
+    :
+  </label>
+  <div
+    className="col-xs-12"
+  >
+    <input
+      name="firstName"
+    />
+    <div
+      className="no-error"
+    />
+  </div>
+</div>
+`;
+
+exports[`FieldWrapper renders correctly when no error is present 1`] = `
+<div
+  className="form-group"
+>
+  <label
+    className="col-xs-12"
+  >
+    First Name
+    :
+  </label>
+  <div
+    className="col-xs-12"
+  >
+    <input
+      name="firstName"
+    />
+    <div
+      className="no-error"
+    />
+  </div>
+</div>
+`;
+
+exports[`FieldWrapper renders error message when error is present and field was touched 1`] = `
+<div
+  className="form-group"
+>
+  <label
+    className="col-xs-12"
+  >
+    First Name
+    :
+  </label>
+  <div
+    className="col-xs-12"
+  >
+    <input
+      name="firstName"
+    />
+    <div>
+      <div
+        className="has-error"
+      />
+      <small
+        className="error"
+      >
+        <strong>
+          First Name
+          :
+        </strong>
+         
+        required
+      </small>
+    </div>
+  </div>
+</div>
+`;

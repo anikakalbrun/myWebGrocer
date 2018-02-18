@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Wrapper defaultProps includes innerContainerClass that is equal to "" 1`] = `
+<div
+  className="hero__vertical-container"
+>
+  <div
+    className="hero__title "
+  />
+</div>
+`;
+
+exports[`Wrapper renders correctly 1`] = `
+<div
+  className="hero__vertical-container"
+>
+  <div
+    className="hero__title green"
+  >
+    <p />
+  </div>
+</div>
+`;

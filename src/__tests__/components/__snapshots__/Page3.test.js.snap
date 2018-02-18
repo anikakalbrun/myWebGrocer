@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Page3 renders proper h1 1`] = `
+<h1
+  className="presentation__title"
+>
+  Thank You
+</h1>
+`;

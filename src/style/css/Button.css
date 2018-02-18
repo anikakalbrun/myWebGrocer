@@ -1,0 +1,14 @@
+.btn {
+    padding: 8px 40px;
+    font-size: 15px
+}
+
+.button--white, .button--white:focus, .button--white:hover {
+    color: #3bc84c;
+    background-color: #fff;
+}
+
+.button--green, .button--green:focus, .button--green:hover {
+    color: #fff;
+    background-color: #3bc84c;
+}

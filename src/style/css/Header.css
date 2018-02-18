@@ -1,0 +1,13 @@
+.nav--fixed--container {
+    background-color: #3bc84c;
+    width: 100%!important;
+}
+
+.hero__logo.logo--green {
+    margin: 1.5rem;
+}
+
+.hero__logo {
+    width: 13rem;
+    float: left;
+}

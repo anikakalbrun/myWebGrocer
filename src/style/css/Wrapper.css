@@ -1,0 +1,49 @@
+.hero__vertical-container {
+    position: relative;
+}
+
+.hero__title {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    background-color: rgba(59,200,76,.9);
+    color: #fff;
+    font-weight: 300;
+    padding: 4rem;
+    max-width: 550px;
+}
+
+.hero__title.large {
+    max-width: 2000px;
+    min-width: 1000px;
+}
+
+.hero__title.inverse {
+    background-color: rgba(255,255,255,.95);
+    color: #43c653;
+}
+
+.hero__title.inverse.default {
+    background-color: rgba(255,255,255,.95);
+    color: #222222;
+}
+
+@media (max-width: 991px) {
+    .hero__title {
+        min-width: 80%;
+        top: 400px;
+        left: 50%;
+        padding: 2.625rem;
+    }
+    .hero__title.inverse {
+        min-width: 60%;
+    }
+}
+
+@media (max-width: 400px) {
+    .hero__title.inverse {
+        min-width: 80%;
+    }
+}

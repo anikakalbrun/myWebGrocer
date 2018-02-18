@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Page1 renders proper h1 1`] = `
+<h1
+  className="presentation__title"
+>
+  Welcome
+</h1>
+`;
+
+exports[`Page1 renders the Button component and passes props to it 1`] = `
+<Button
+  btnClassName="button--white pull-right m-t-10"
+  callback={[Function]}
+  disabled={false}
+  text="Next"
+  type="button"
+/>
+`;
+
+exports[`Page1 renders the first paragraph with proper content 1`] = `
+<p>
+  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+</p>
+`;
+
+exports[`Page1 renders the second paragraph with proper content 1`] = `
+<p>
+  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo
+</p>
+`;

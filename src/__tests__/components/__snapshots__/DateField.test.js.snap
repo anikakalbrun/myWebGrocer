@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DateField renders correctly 1`] = `
+<div
+  className="form-group"
+>
+  <label
+    className="col-xs-12"
+  >
+    Date
+    :
+  </label>
+  <div
+    className="col-xs-12"
+  >
+    <div>
+      <div
+        className="react-datepicker-wrapper"
+      >
+        <div
+          className="react-datepicker__input-container"
+        >
+          <input
+            autoComplete={undefined}
+            autoFocus={undefined}
+            className="form-control "
+            disabled={false}
+            id={undefined}
+            name={undefined}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            placeholder="Date"
+            readOnly={undefined}
+            required={undefined}
+            tabIndex={undefined}
+            title={undefined}
+            type="text"
+            value="06/06/2018"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="no-error"
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,14 @@
+.presentation__title {
+    text-align: center;
+    font-size: 6rem;
+    line-height: 5rem;
+    font-weight: 600;
+    padding-bottom: 2rem;
+}
+
+@media (max-width: 991px) {
+    .presentation__title {
+        font-size: 5rem;
+        padding-bottom: 1rem;
+    }
+}

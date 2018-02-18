@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormField renders input as child component and provides propper props to it 1`] = `
+<input
+  autoComplete="given-name"
+  className="form-control "
+  disabled={false}
+  placeholder="First Name"
+  type="text"
+/>
+`;
